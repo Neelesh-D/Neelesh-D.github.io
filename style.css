@@ -1,0 +1,74 @@
+*{
+   margin: 0%;
+   padding: 0%; 
+   box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+#cover{
+width: 100%;
+height: 45%;
+background-image: url(https://www.teahub.io/photos/full/184-1843130_kung-fu-panda-wallpapers-4k.jpg);
+background-size:cover;
+background-position: center;
+}
+h1{
+font-style: italic;
+color: #ffffff;
+margin-top: 4%;
+
+}
+hr{
+ background-color: #ffffff;
+ margin-top: 1%;
+
+}
+p{
+color: #ffffff;
+font-size: 18px;
+margin-top: 5%;
+text-align: center;
+}
+#content{
+    width: 12%;
+    height: 26%;
+    background-color: #dbdbdb;
+    margin-top: 5%;
+    border-radius: 2px;
+    font-size: 16px;
+    padding: 15px 25px;
+}
+#story{
+ text-align: left;
+
+}
+#Trailer{
+    height: 22%;
+    width: 25%;
+background-image: url(https://lumiere-a.akamaihd.net/v1/images/ffi_kfp_1600x686_us_2e394abe.jpeg?region=0,0,1600,686&width=960);
+position: absolute;
+left: 50%;
+transform: translate(-50%,0%);
+background-size: cover;
+}
+#Overlay{
+height: 100%;
+width: 100%;
+position: relative;
+background-color: rgba(0, 0, 0, 0.219);
+}
+
+img{
+position: relative;
+left: 50%;
+top: 50%;
+transform: translate(-50%,-50%);
+}
+
+img:hover{
+cursor: pointer;
+
+}
